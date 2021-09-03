@@ -1,0 +1,30 @@
+<section class="py-1">
+	<div class="row">
+		<div class="col-md-6 text-center">
+			<h1 class="display-3 mt-3 pt-5">
+				Payement Application
+			</h1>
+			<p class="lead">Learning web development stripe payement</p>
+			<form action="/charge" method="POST">
+				<script
+					src="https://checkout.stripe.com/checkout.js"
+					class="stripe-button"
+					data-key="{{stripePublishableKey}}"
+					data-amount="10"
+					data-name="Web development Ecommerce"
+					data-description="Written By Azim Ansari"
+					data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+					data-locale="auto"
+				>
+				</script>
+				<script>
+					document.getElementsByClassName('stripe-button-el')[0].style.display = 'none';
+				</script>
+				<button type="submit" class="btn btn-outline-dark text-white btn-lg">Pay for 25 ₹</button>
+			</form>
+		</div>
+		<div class="col-md-5 mt-5">
+			<img src="/img/book1.png" alt="" class="img-fluid" />
+		</div>
+	</div>
+</section>

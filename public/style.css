@@ -1,0 +1,30 @@
+/** @format */
+
+.mojFooter {
+	background-color: #f8f8f8;
+	color: #00a651;
+	padding-top: 0px;
+	border-top: 1px solid #e7e7e7;
+	margin-bottom: 0px;
+}
+
+.bottom-footer {
+	border-top: 1px solid #2c00a6;
+	margin-top: 10px;
+	padding-top: 7px;
+	color: #007fa6;
+}
+
+.footer-nav li {
+	display: inline;
+	padding: 0px 40px;
+}
+
+.footer-nav a {
+	color: rgb(10, 14, 3);
+	text-decoration: none;
+}
+/* .mojFooter {
+	min-height: 50px;
+	min-block-size: 2rem;
+} */
