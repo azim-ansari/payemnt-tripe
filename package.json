@@ -5,9 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "nodemon server.js",
-		"clean": "rimraf dist && mkdir dist",
-		"build": "npm run clean && npm run babel-build"
+		"start": "nodemon server.js"
 	},
 	"author": "azim",
 	"license": "ISC",
@@ -26,6 +24,7 @@
 		"express": "^4.17.1",
 		"express-handlebars": "^5.3.3",
 		"nodemon": "^2.0.12",
+		"rimraf": "^3.0.2",
 		"stripe": "^8.174.0"
 	}
 }
